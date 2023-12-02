@@ -19,6 +19,7 @@
 *{
     /* background-color: #eeeee4; */
      background-color: #212121;
+     overflow-x: hidden;
 }
 .heading{
     background-color: #3b060a;
@@ -219,9 +220,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 100%;
+    max-width: 92%;
+    margin: 4% 4% 4% 4%;
     min-height: 60vh;
-    font-size: clamp(0.3rem, 0.0070rem + 1.3023vw, 1rem);
+    font-size: clamp(1rem, 0.0070rem + 1.3023vw, 1rem);
 }
 
 
