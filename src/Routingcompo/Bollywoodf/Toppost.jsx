@@ -7,7 +7,7 @@ function Toppost() {
     return (
         <>
             <h1 className="Top-post">Top Post</h1>
-            {BollyData.filter(item => item.id >= 7)
+            {BollyData.filter(item => item.id >= 5)
                 .map((item, index) => {
 
                     return (

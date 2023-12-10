@@ -6,24 +6,9 @@ export const Bucket = createContext();
 
 function CreateStore (props) {
     const [data,setData] = useState([
+        
         {
             id:1,
-            cat:"Bollywood",
-            title:"Rocky Aur Rani Kii Prem Kahaani",
-            description:"Flamboyant Punjabi Rocky and intellectual Bengali journalist Rani fall in love despite their differences. After facing family opposition, they decide to live with each other's families for three months before getting married.",
-            img:"https://th.bing.com/th/id/OIP.voYabXFYRNeZXXhU_UhL7AHaEK?w=313&h=180&c=7&r=0&o=5&pid=1.7",
-            Date:"2023",
-        },
-        {
-            id:2,
-            cat:"Bollywood",
-            title:"Goliyon Ki Raasleela Ram Leela",
-            description:"Modern adaptation of William Shakespeare's 'Romeo and Juliet' with an Indian twist, the film focuses on the story of Ram and Leela, their love, lust and the drama afterwards.",
-            img:"https://th.bing.com/th/id/OIP.2yAy8HWk3djC9t_dJJIqNgHaEK?w=311&h=180&c=7&r=0&o=5&pid=1.7",
-            Date:"15th Nov 2013",
-        },
-        {
-            id:3,
             cat:"Bollywood",
             title:"Yeh Jawaani Hai Deewani",
             description:"Kabir and Naina bond during a trekking trip. Before Naina can express herself, Kabir leaves India to pursue his career. They meet again years later, but he still cherishes his dreams more than bonds.",
@@ -31,7 +16,7 @@ function CreateStore (props) {
             Date:"15th Nov 2013",
         },
         {
-            id:4,
+            id:2,
             cat:"Bollywood",
             title:"Animal",
             description:"A son's love for his father. Often away due to work the father is unable to comprehend the intensity of his son's love. Ironically, this fervent love and admiration for his father and family creates conflict between the father and son.",
@@ -39,7 +24,7 @@ function CreateStore (props) {
             Date:"1st Dec 2023",
         },
         {
-            id:5,
+            id:3,
             cat:"Bollywood",
             title:"Pushpa: The Rule - Part 2",
             description:"The clash is on as Pushpa and Bhanwar Singh continue their rivalry in this epic conclusion to the two-parted action drama.",
@@ -47,7 +32,7 @@ function CreateStore (props) {
             Date:"2024",
         },
         {
-            id:6,
+            id:4,
             cat:"Bollywood",
             title:"Tamasha",
             description:"A boy meets a girl, in Corsica. They decide not to reveal their real name or personality.",
@@ -55,7 +40,7 @@ function CreateStore (props) {
             Date:"2015",
         },
         {
-            id:7,
+            id:5,
             cat:"Bollywood",
             title:"Ae Dil Hai Mushkil",
             description:"This story explores love - the shapes it takes, the ways it changes us and the exhilarating and often terrifying ride it takes us on. It is the journey of two characters, Alizeh and Ayan, as they navigate life, love and heartbreak.",
@@ -63,7 +48,7 @@ function CreateStore (props) {
             Date:"2016",
         },
         {
-            id:8,
+            id:6,
             cat:"Bollywood",
             title:"Tu Jhoothi Main Makkaar",
             description:"Madness ensues when a 'player' in the world of romantic relationships finds a girl who's a worthy opponent, that believes love is a battle of wits.",
@@ -71,7 +56,7 @@ function CreateStore (props) {
             Date:"2023",
         },
         {
-            id:9,
+            id:7,
             cat:"Bollywood",
             title:"Baahubali: The Beginning",
             description:"A child from the Mahishmati kingdom is raised by tribal people and one day learns about his royal heritage, his father's bravery in battle and a mission to overthrow the incumbent ruler.",
@@ -79,7 +64,7 @@ function CreateStore (props) {
             Date:"2015",
         },
         {
-            id:10,
+            id:8,
             cat:"Bollywood",
             title:"K.G.F: Chapter 2",
             description:"In the blood-soaked Kolar Gold Fields, Rocky's name strikes fear into his foes. While his allies look up to him, the government sees him as a threat to law and order. Rocky must battle threats from all sides for unchallenged supremacy.",
