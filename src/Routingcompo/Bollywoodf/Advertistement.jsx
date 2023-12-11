@@ -3,7 +3,15 @@
 function Advertistement() {
     return(
         <>
-        <h1>Advertistement</h1>
+        <div className="Advertistement">
+            <h1>Advertistement</h1>
+        </div>
+        <div className="Advertistement">
+            <h1>Advertistement</h1>
+        </div>
+        <div className="Advertistement">
+            <h1>Advertistement</h1>
+        </div>
         </>
     )
 }

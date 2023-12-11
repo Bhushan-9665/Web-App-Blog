@@ -2,12 +2,12 @@ import { useContext } from "react";
 import { Bucket } from "../../Createstore";
 
 
-function Toppost() {
+function TopPostFood() {
     const [BollyData] = useContext(Bucket);
     return (
         <>
             <h1 className="Top-post">Top Post</h1>
-            {BollyData.filter(item => item.cat === "Bollywood" && item.id % 2)
+            {BollyData.filter(item => item.cat === "Food" && item.id % 2)
                 .map((item, index) => {
 
                     return (
@@ -27,4 +27,4 @@ function Toppost() {
     )
 }
 
-export default Toppost;
+export default TopPostFood;

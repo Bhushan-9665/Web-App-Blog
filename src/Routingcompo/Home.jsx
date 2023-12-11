@@ -1,10 +1,22 @@
 
+import TreadingCpompo, { HOllywoodCopmpo, TechnologyCopmpo } from "./Home/TreadingCompo.jsx";
+
 
 function Home() {
 
     return (
         <>
-        <h1 className="underconstruction">site is under construction Bollywood tab are working properly try the bollywood tab</h1>
+        <div className="threeImageController-Main">
+            <div className="Bollywood-Top">
+                <TreadingCpompo />
+            </div>
+            <div className="Technology-Top">
+                <TechnologyCopmpo />
+            </div>
+            <div className="Hollywood-Top">
+                <HOllywoodCopmpo />
+            </div>
+        </div>
         </>
     )
 }
